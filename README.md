@@ -10,5 +10,5 @@ visit [here](http://redux.js.org/) for more info
 visit [here](https://github.com/ReactTraining/react-router/blob/master/docs/API.md) for more info
 
 ## Interact with publications
-1. ActionCreators => visit [here](https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec#.3yd37zjql)
-2. Dispatch actions => visit [here](https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.wze74pm8q)
+1. ActionCreators => call Meteor methods => return data. Explanation and example at [here](https://medium.com/modern-user-interfaces/how-we-redux-part-3-domain-890964824fec#.3yd37zjql)
+2. Dispatch actions by using the action creators => More info at [here](https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.wze74pm8q)
