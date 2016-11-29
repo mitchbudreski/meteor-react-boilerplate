@@ -18,7 +18,7 @@ visit [here](https://github.com/ReactTraining/react-router/blob/master/docs/API.
 2. Dispatch actions by using the action creators => More info [here](https://medium.com/modern-user-interfaces/how-we-redux-part-4-reducers-and-stores-f4a0ebcdc22a#.wze74pm8q)
 
 ## Use the ddp-analyzer in dev
-  - install it from npm - sudo npm install -g ddp-analyzer
+  - install it from npm - npm install -g ddp-analyzer
   - start the proxy - ddp-analyzer-proxy
   - Then start your meteor app as shown below
 ```
