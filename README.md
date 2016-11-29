@@ -25,3 +25,9 @@ visit [here](https://github.com/ReactTraining/react-router/blob/master/docs/API.
   export DDP_DEFAULT_CONNECTION_URL=http://localhost:3030
   meteor --settings settings.json
 ```
+
+## Security in Meteor app
+more [here](https://guide.meteor.com/security.html)
+  1. Methods: Any data that comes in through Method arguments needs to be validated, and Methods should not return data the user shouldn’t have access to.
+  2. Publications: Any data that comes in through publication arguments needs to be validated, and publications should not return data the user shouldn’t have access to.
+  3. Served files: You should make sure none of the source code or configuration files served to the client have secret data.
